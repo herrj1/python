@@ -3,6 +3,7 @@ def sum(l):
     sum = 0
     for x in l:
         sum += 1/(pow(x,2)+9)
+        sum += 1/(pow(x,2)+9)
     return sum
 
 #Sample run
