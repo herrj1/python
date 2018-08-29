@@ -6,7 +6,7 @@ def sum(l):
         sum += 1/(pow(x,2)+9)
     return sum
 
-#Sample run
+#Sample run using an array
 l = [2,3,4,5,6]
 sum(l)
 
