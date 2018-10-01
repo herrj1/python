@@ -10,5 +10,5 @@ def sum(l):
 l = [2,3,4,5,6]
 sum(l)
 
-#Output
+#Sample output
 0.22411261940673707
