@@ -1,0 +1,9 @@
+#install conda first
+theano
+numpy
+scipy
+scikit-learn
+pillow
+h5py
+opencv-python
+keras
