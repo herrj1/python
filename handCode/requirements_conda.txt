@@ -1,0 +1,16 @@
+#install conda first
+#conda specific
+#pip
+#pyhamcrest
+#libpython
+#m2w64-toolchain
+
+#pip specific
+theano
+numpy
+scipy
+scikit-learn
+pillow
+h5py
+keras
+matplotlib
