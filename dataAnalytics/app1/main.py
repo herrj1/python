@@ -13,7 +13,6 @@ def load_dataset():
 		for i, row in enumerate(reader):
 			X[i] = int(row['share']) if len(row['share']) > 0 else 0
 			y[i] = int(row['like']) if len(row['like']) > 0 else 0
-			
 	return X, y
 
 #Visualize dataset
