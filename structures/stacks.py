@@ -19,13 +19,12 @@ class Stack:
         return len(self.items)
 
 
-
-
 #Sample run
 s = Stack()
 
 print(s.is_empty())
 s.push(2)
+s.push(true)
 s.push('cat')
 print(s.peek())
 s.push(False)
