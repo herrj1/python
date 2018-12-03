@@ -1,7 +1,6 @@
 >>> import nltk
 >>> nltk.download()
 >>>
->>>
 >>> noise_list = ["is", "as", "this", "...."]
 >>> def _remove_noise(input_text):
 ...     words = input_text.split()
