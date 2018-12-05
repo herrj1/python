@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import csv
 
-#Load the dataset and parse it
+#Load the dataset and parse 
 def load_dataset():
 	num_rows = sum(1 for line in open('Facebook_metrics\\dataset_Facebook.csv')) - 1
 	X = np.zeros((num_rows, 1))
