@@ -2,7 +2,7 @@
 a = [4,5,6]
 b = [1,2,3]
 
-#use keyword extend
+#use keyword extend to enlarge list data structure
 b.extend(a)
 
 #output result
