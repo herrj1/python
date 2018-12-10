@@ -1,4 +1,5 @@
 #Python queue ADT
+#Python queue ADT
 
 class Queue:
 	def __init__(self):
