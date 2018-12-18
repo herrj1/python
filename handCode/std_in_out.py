@@ -1,8 +1,7 @@
 import sys
 from collections import Counter
 
-#pass in number of words as first argument
-
+#pass in number of words as first arguments
 try:
 	num_words = int(sys.argv[1])
 except:
