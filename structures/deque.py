@@ -21,7 +21,7 @@ class Deque:
     def size(self):
         return len(self.items)
 
-#sample use of deque (deck)
+#sample use of deque (deck) or deques (decks)
 def pal_checker(a_string):
     char_deque = Deque()
 
