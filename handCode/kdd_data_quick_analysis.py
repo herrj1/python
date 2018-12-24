@@ -1,5 +1,4 @@
 #Modified and re-adapted by fullarray
-
 from keras.utils.data_utils import get_file
 
 try:
@@ -12,9 +11,7 @@ print(path)
 
 
 df = pd.read_csv(path, header=None)
-
 print("Read {} rows. ". format(len(df)))
-
 df.dropna(inplace=True, axis=1)
 
 #add headers as there are any in the dataset.
