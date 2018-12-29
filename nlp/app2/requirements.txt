@@ -1,2 +1,2 @@
-#conda 3
+#conda 3 #it may work on conda 2
 nltk
