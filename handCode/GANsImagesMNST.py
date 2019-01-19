@@ -3,7 +3,7 @@ def mnist_data():
         [transforms.ToTensor(),
          transforms.Normalize((.5, .5, .5), (.5, .5, .5))
         ])
-    out_dir = './dataset'
+    out_dir = './data'
     return datasets.MNIST(root=out_dir, train=True, transform=compose, download=True)
 
 # Load data
