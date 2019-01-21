@@ -16,5 +16,6 @@ class Node:
         self.next = newnext
 
 #Test run
-temp = Node(23)
+#temp = Node(23)
+temp = Node(102)
 temp.getData()
