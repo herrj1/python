@@ -20,7 +20,6 @@
 ...     return input_text
 ...
 >>> regex_pattern = "#[\w]*"
->>>
 >>> _remove_regex("remove this #hashtag from analytics fullarray", regex_pattern)
 'remove this  from analytics fullarray'
 >>>
