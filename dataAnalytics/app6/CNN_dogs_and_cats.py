@@ -13,7 +13,7 @@ from matplotlib importa pyplot as plt
 from sklearn.metrics import confusion_matrix
 importa itertools
 import matplotlib.pyplot as plt
-%matplotlit inline
+#%matplotlit inline
 
 train_path = 'cats-and-dogs/train'
 valid_path = 'cats-and-dogs/valid'
