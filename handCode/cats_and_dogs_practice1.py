@@ -25,7 +25,7 @@ train_batches = ImageDataGenerator().flow_from_directory(train_path, target_size
 valid_batches = ImageDataGenerator().flow_from_directory(valid_path, target_size=(224,224), classes['dog', 'cat'], batch_size=4)
 test_batches = ImageDataGenerator().flow_from_directory(test_path, target_size=(224,224), classes['dog', 'cat'], batch_size=10)
 
-#plot images with labels
+#plot images with label
 def plots(ims, figsize=(12,6), rows=1, interp=False, titles=None):
     if type(ims[0]) is np.ndarray:
         ims = np.array(ims).astype(np.uint8)
