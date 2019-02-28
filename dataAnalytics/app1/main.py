@@ -15,14 +15,14 @@ def load_dataset():
 			y[i] = int(row['like']) if len(row['like']) > 0 else 0
 	return X, y
 
-#Visualize dataset
+#visualize dataset
 def visualize_dataset(X, y):
 	plt.xlabel('Number of shares')
 	plt.ylabel('Number of likes')
 	plt.scatter(X, y)
 	plt.show()
 
-#Main driver
+#main driver. run the program by calling the sub routines
 if __name__ == '__main__':
 	X, y = load_dataset()
 	visualize_dataset(X, y)
