@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>App1 Flask Forms</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- design and programmed by fullarray and Jonathan H.-->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- design and programmed by fullarray and Jonathan H.-->
+    <div class="container">
+	  <div class="row justify-content-md-center">
+	    <div class="col-md-4">
+		<br/>
+		<div class="alert alert-primary" role="alert">
+		  <p>Your favorite NFL team the {{ teamname }} was added to the national database</p>
+		  
+		  <img src="/static/teams_img/{{ teamname.lower() }}.png">
+		</div>
+		<a href="/send">Go back</a>
+		
+		{% for teams in teamlistnow %}
+		<ul  class="list-group">
+			<li  class="list-group-item"> 
+				<div class="card" style="width: 100%;">
+				  <img src="/static/teams_img/{{ teams.title }}.png" class="card-img-top" alt="{{ teams.title }}">
+				  <div class="card-body">
+					<h5 class="card-title"> {{ teams.title }} </h5>
+					<p class="card-text">{{ teams.description }}</p>
+				  </div>
+				</div>
+			</li>
+		</ul>
+		{% endfor %}
+		
+	</div>
+	  
+	</div>
+	 <div class="row">
+			{% for teamss in teamlistnow %} 
+			<div class="col-md-3">
+				<div class="card" style="18em">
+				  <img style="width: 100%; object-fit: cover;" src="/static/teams_img/{{ teamss.title }}.png" class="card-img-top" alt="{{ teamss.title }}">
+				  <div class="card-body">
+					<h5 class="card-title"> {{ teamss.title }} </h5>
+					<p class="card-text">{{ teamss.description }}</p>
+				  </div>
+				</div>
+			</div>
+			<br/><br/>
+		{% endfor %}
+		
+	  </div>
+	
+	</div>
+  
+  
+  
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <!-- design and programmed by fullarray and Jonathan H.-->
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <!-- design and programmed by fullarray and Jonathan H.-->
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
