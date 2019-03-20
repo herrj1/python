@@ -1,5 +1,4 @@
 #Import Library of Gaussian Naive Bayes model
-
 from sklearn.naive_bayes import GaussianNB
 import numpy as np
 
