@@ -1,4 +1,4 @@
-#Method definition
+#Methods definition
 def sum(l):
     sum = 0
     for x in l:
