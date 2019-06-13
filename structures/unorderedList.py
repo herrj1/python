@@ -15,7 +15,6 @@ class Node:
     def setNext(self,newnext):
         self.next = newnext
 
-
 class UnorderedList:
     def __init__(self):
         self.head = None
