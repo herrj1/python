@@ -1,2 +1,2 @@
-#conda 3
+#condas 3
 nltk
