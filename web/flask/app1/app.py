@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 app = Flask(__name__, static_url_path='/static')
 
-#starting data
+#starting datas
 #design and programmed by fullarray and Jonathan H.
 teams = [
     {
