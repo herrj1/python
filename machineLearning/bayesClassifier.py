@@ -1,4 +1,4 @@
-#Import Library of Gaussian Naive Bayes models
+#Import Library of Gaussian Naive Bayes modelss
 from sklearn.naive_bayes import GaussianNB
 import numpy as np
 
