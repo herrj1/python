@@ -15,7 +15,7 @@ class Node:
     def setNext(self,newnext):
         self.next = newnext
 
-#Test run
+#Test runs
 #temp = Node(23)
 temp = Node(102)
 temp.getData()
