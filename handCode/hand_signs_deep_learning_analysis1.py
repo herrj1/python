@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 # import warnings
 import warnings
-# filter warnings
+# filter warning
 warnings.filterwarnings('ignore')
 from subprocess import check_output
 print(check_output(["ls", "../input"]).decode("utf8"))
