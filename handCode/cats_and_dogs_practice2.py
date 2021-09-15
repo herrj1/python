@@ -17,7 +17,9 @@ import matplotlib.pyplot as plt
 
 #set the paths
 train_path = 'cats-and-dogs/train'
+
 valid_path = 'cats-and-dogs/valid'
+
 test_path = 'cats-and-dogs/test'
 
 #training
