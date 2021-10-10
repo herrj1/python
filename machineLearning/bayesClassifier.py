@@ -2,7 +2,7 @@
 from sklearn.naive_bayes import GaussianNB
 import numpy as np
 
-#assigning predictor and target variables
+#assigning predictor and target variable
 x= np.array([[-3,2],[1,7], [1,2], [-2,0], [2,3], [-3,0], [-1,1], [1,1], [-1,2], [2,7], [-4,1], [-2,9]])
 
 y = np.array([3, 3, 6, 3, 4, 3, 3, 5, 3, 4, 9, 4])
